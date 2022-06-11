@@ -207,6 +207,7 @@
         <item>@string/touchscreen_gesture_action_alipay_scan</item>
         <item>@string/touchscreen_gesture_action_alipay_trip</item>
         <item>@string/touchscreen_gesture_action_wallet_trip</item>
+        <item>@string/touchscreen_gesture_action_device_extras</item>
     </string-array>
     <string-array name="touchscreen_gesture_action_values">
         <item>0</item>
@@ -229,5 +230,6 @@
         <item>17</item>
         <item>18</item>
         <item>19</item>
+        <item>20</item>
     </string-array>
 </resources>

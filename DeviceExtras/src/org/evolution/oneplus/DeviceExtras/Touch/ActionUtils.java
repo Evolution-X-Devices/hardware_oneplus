@@ -89,6 +89,14 @@ public class ActionUtils {
         return intent;
     }
 
+    private static Intent getDeviceExtrasIntent(Context context) {
+        Intent intent = new Intent();
+        ComponentName cn=new ComponentName("org.evolution.oneplus.DeviceExtras",
+                "org.evolution.oneplus.DeviceExtras.DeviceExtrasActivity");
+        intent.setComponent(cn);
+        return intent;
+    }
+
     public static Intent getIntentByAction(Context context, int action) {
         Intent intent = null;
         if (action == TouchscreenGestureConstants.ACTION_BROWSER) {
@@ -111,6 +119,8 @@ public class ActionUtils {
             intent = getAlipayTripIntent(context);
         } else if (action == TouchscreenGestureConstants.ACTION_WALLET_TRIP) {
             intent = getWalletTripIntent(context);
+        } else if (action == TouchscreenGestureConstants.ACTION_DEVICE_EXTRAS) {
+            intent = getDeviceExtrasIntent(context);
         }
         return intent;
     }
@@ -123,7 +133,7 @@ public class ActionUtils {
         KeyguardManager km = (KeyguardManager) context.getSystemService(Context.KEYGUARD_SERVICE);
         if (km.isKeyguardLocked()) {
             intent = new Intent();
-            intent.setClassName("org.evolution.oneplus.DeviceExtras", "org.evolution.oneplus.DeviceExtras.ScreenOffLaunchGestureActivity");
+            intent.setClassName("org.evolution.oneplus.DeviceExtras", "org.evolution.oneplus.DeviceExtras.touch.ScreenOffLaunchGestureActivity");
             intent.putExtra(ScreenOffLaunchGestureActivity.ACTION_KEY, action);
         }
         startActivitySafely(context, intent);
