@@ -229,6 +229,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 case TouchscreenGestureConstants.ACTION_ALIPAY_TRIP:
                 case TouchscreenGestureConstants.ACTION_WALLET_TRIP:
                 case TouchscreenGestureConstants.ACTION_DEVICE_EXTRAS:
+                case TouchscreenGestureConstants.ACTION_GOOGLE_MAPS:
                     launchActivity(msg.arg1);
                     break;
             }

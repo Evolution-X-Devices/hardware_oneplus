@@ -97,6 +97,14 @@ public class ActionUtils {
         return intent;
     }
 
+    private static Intent getGoogleMapsIntent(Context context) {
+        Intent intent = new Intent();
+        ComponentName cn=new ComponentName("com.google.android.apps.maps",
+                "com.google.android.maps.MapsActivity");
+        intent.setComponent(cn);
+        return intent;
+    }
+
     public static Intent getIntentByAction(Context context, int action) {
         Intent intent = null;
         if (action == TouchscreenGestureConstants.ACTION_BROWSER) {
@@ -121,6 +129,8 @@ public class ActionUtils {
             intent = getWalletTripIntent(context);
         } else if (action == TouchscreenGestureConstants.ACTION_DEVICE_EXTRAS) {
             intent = getDeviceExtrasIntent(context);
+        } else if (action == TouchscreenGestureConstants.ACTION_GOOGLE_MAPS) {
+            intent = getGoogleMapsIntent(context);
         }
         return intent;
     }
