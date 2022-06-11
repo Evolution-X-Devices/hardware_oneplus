@@ -199,6 +199,7 @@
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
     <string name="touchscreen_gesture_action_device_extras">DeviceExtras</string>
     <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
+    <string name="touchscreen_gesture_action_google_search">Google Search</string>
     <string name="game_mode_title">Game mode</string>
     <string name="game_mode_summary">Force enable 240Hz sampling rate for all applications</string>
     <string name="game_mode_warning">May decrease battery life</string>

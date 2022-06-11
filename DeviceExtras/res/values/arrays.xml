@@ -209,6 +209,7 @@
         <item>@string/touchscreen_gesture_action_wallet_trip</item>
         <item>@string/touchscreen_gesture_action_device_extras</item>
         <item>@string/touchscreen_gesture_action_google_maps</item>
+        <item>@string/touchscreen_gesture_action_google_search</item>
     </string-array>
     <string-array name="touchscreen_gesture_action_values">
         <item>0</item>
@@ -233,5 +234,6 @@
         <item>19</item>
         <item>20</item>
         <item>21</item>
+        <item>22</item>
     </string-array>
 </resources>
