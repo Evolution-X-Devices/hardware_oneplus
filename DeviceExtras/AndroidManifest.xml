@@ -90,7 +90,8 @@
         <activity
             android:name=".panelsettings.PanelSettingsActivity"
             android:exported="true"
-            android:label="@string/panel_modes_title" >
+            android:label="@string/panel_modes_title"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -120,7 +121,8 @@
         <activity
             android:name=".kcal.KcalSettingsActivity"
             android:exported="true"
-            android:label="@string/kcal_settings_title" >
+            android:label="@string/kcal_settings_title"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
