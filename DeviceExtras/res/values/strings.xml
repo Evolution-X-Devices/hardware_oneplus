@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">Device Extras</string>
     <string name="device_summary">Adjust device specific settings</string>
+    <string name="device_extras_warning_title">Warning</string>
+    <string name="device_extras_warning_text">A majority of these features rely on specific kernel nodes in order to function. By flashing a custom kernel, you risk the possibility of losing access to some features. You have been warned!</string>
+    <string name="device_extras_dialog">OK</string>
 	
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Alert slider</string>

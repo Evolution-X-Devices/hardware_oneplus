@@ -19,8 +19,13 @@
 */
 package org.evolution.oneplus.DeviceExtras;
 
+import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.SharedPreferences;
@@ -137,8 +142,13 @@ public class DeviceExtras extends PreferenceFragment
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this.getContext());
         addPreferencesFromResource(R.xml.main);
+
+        SharedPreferences prefs = getActivity().getSharedPreferences("main",
+                Activity.MODE_PRIVATE);
+        if (savedInstanceState == null && !prefs.getBoolean("first_warning_shown", false)) {
+            showWarning();
+        }
 
         Context context = this.getContext();
 
@@ -824,5 +834,29 @@ public class DeviceExtras extends PreferenceFragment
         Intent fpsinfo = new Intent(context, FPSInfoService.class);
         context.stopService(fpsinfo);
         context.startService(fpsinfo);
+    }
+
+    public static class WarningDialogFragment extends DialogFragment {
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            return new AlertDialog.Builder(getActivity())
+                    .setTitle(R.string.device_extras_warning_title)
+                    .setMessage(R.string.device_extras_warning_text)
+                    .setNegativeButton(R.string.device_extras_dialog, (dialog, which) -> dialog.cancel())
+                    .create();
+        }
+
+        @Override
+        public void onCancel(DialogInterface dialog) {
+            getActivity().getSharedPreferences("main", Activity.MODE_PRIVATE)
+                    .edit()
+                    .putBoolean("first_warning_shown", true)
+                    .commit();
+        }
+    }
+
+    private void showWarning() {
+        WarningDialogFragment fragment = new WarningDialogFragment();
+        fragment.show(getFragmentManager(), "warning_dialog");
     }
 }
