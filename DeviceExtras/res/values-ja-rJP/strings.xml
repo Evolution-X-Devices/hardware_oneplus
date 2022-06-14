@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">端末の追加機能</string>
     <string name="device_summary">端末固有の設定を調整する</string>
+    <string name="device_extras_warning_title">警告</string>
+    <string name="device_extras_warning_text">これらの機能の大部分は機能させるために特定のカーネルノードを必要とします。カスタムカーネルをフラッシュすると、一部の機能へのアクセスを失う可能性があります。注意して下さい!</string>
+    <string name="device_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Alert Slider</string>
     <string name="notification_slider_title">Alert Slider の設定</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">文字の色</string>
     <string name="fps_info_color_green">緑</string>
     <string name="fps_info_color_red">レッド</string>
+    <string name="fps_info_color_magenta">マゼンタ</string>
     <string name="fps_info_color_blue">青</string>
+    <string name="fps_info_color_cyan">シアン</string>
     <string name="fps_info_color_yellow">黄</string>
     <string name="fps_info_color_black">黒</string>
+    <string name="fps_info_color_white">ホワイト</string>
+    <string name="fps_info_color_gray">グレー</string>
+    <string name="fps_info_color_ltgray">ライトグレー</string>
+    <string name="fps_info_color_dkgray">ダークグレー</string>
     <string name="fps_info_color_accent">システムに従う</string>
     <string name="fps_info_position_title">オーバーレイの位置</string>
     <string name="fps_info_position_top_left">左上</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">左下</string>
     <string name="fps_info_position_bottom_center">中央下</string>
     <string name="fps_info_position_bottom_right">右下</string>
+    <string name="fps_info_position_center_left">左中央</string>
+    <string name="fps_info_position_center_center">中央</string>
+    <string name="fps_info_position_center_right">右中央</string>
     <string name="fps_info_text_size_title">文字の大きさ</string>
     <!-- Doze -->
     <string name="ambient_enable">アンビエント表示を使用</string>
@@ -179,6 +191,9 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
+    <string name="touchscreen_gesture_action_device_extras">端末の追加機能</string>
+    <string name="touchscreen_gesture_action_google_maps">Google マップ</string>
+    <string name="touchscreen_gesture_action_google_search">Google 検索</string>
     <string name="game_mode_title">ゲームモード</string>
     <string name="game_mode_summary">全てのアプリにタッチ画面の240Hzサンプリングレートを強制有効化する</string>
     <string name="game_mode_warning">電池の減りが速くなります</string>
@@ -188,6 +203,7 @@
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 急速充電</string>
     <string name="usb2_fc_summary">USB 2.0モードで最大900mAの急速充電を強制使用する</string>
+    <string name="usb2_fc_warning">Dash/Warp Charging に干渉することがあります。適用できる場合のみ有効化して下さい。</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">USB on-the-go モードを有効化する</string>
     <!-- Vibrator -->

@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">إضافات الجهاز</string>
     <string name="device_summary">اضبط إعدادات الجهاز</string>
+    <string name="device_extras_warning_title">تحذير</string>
+    <string name="device_extras_warning_text">تعتمد أغلبية هذه الميزات على عقد نواة محددة من أجل العمل. من خلال وميض نواة مخصصة، تخاطر باحتمال فقدان الوصول إلى بعض الميزات. لقد تم تحذيرك!</string>
+    <string name="device_extras_dialog">موافق</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">مزلاق التنبيه</string>
     <string name="notification_slider_title">إعدادات مزلاق التنبيه</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">لون النص</string>
     <string name="fps_info_color_green">أخضر</string>
     <string name="fps_info_color_red">أحمر</string>
+    <string name="fps_info_color_magenta">أرجواني</string>
     <string name="fps_info_color_blue">أزرق</string>
+    <string name="fps_info_color_cyan">سماوي</string>
     <string name="fps_info_color_yellow">أصفر</string>
     <string name="fps_info_color_black">أسود</string>
+    <string name="fps_info_color_white">أبيض</string>
+    <string name="fps_info_color_gray">رمادي</string>
+    <string name="fps_info_color_ltgray">رمادي فاتح</string>
+    <string name="fps_info_color_dkgray">رمادي غامق</string>
     <string name="fps_info_color_accent">اتبع النظام</string>
     <string name="fps_info_position_title">موضع التراكب</string>
     <string name="fps_info_position_top_left">أعلى اليسار</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">أسفل اليسار</string>
     <string name="fps_info_position_bottom_center">أسفل في الوسط</string>
     <string name="fps_info_position_bottom_right">اسفل على اليمين</string>
+    <string name="fps_info_position_center_left">يسار الوسط</string>
+    <string name="fps_info_position_center_center">الوسط</string>
+    <string name="fps_info_position_center_right">الوسط الأيمن</string>
     <string name="fps_info_text_size_title">حجم النص</string>
     <!-- Doze -->
     <string name="ambient_enable">استخدم العرض المحيط</string>
@@ -179,6 +191,9 @@
     <string name="touchscreen_gesture_action_alipay_scan">بحث Alipay</string>
     <string name="touchscreen_gesture_action_alipay_trip">رحلة Alipay</string>
     <string name="touchscreen_gesture_action_wallet_trip">رحلة Wallet</string>
+    <string name="touchscreen_gesture_action_device_extras">اعدادات إضافية</string>
+    <string name="touchscreen_gesture_action_google_maps">خرائط جوجل</string>
+    <string name="touchscreen_gesture_action_google_search">بحث جوجل</string>
     <string name="game_mode_title">وضع الألعاب</string>
     <string name="game_mode_summary">تفعيل معدل أخذ العينات على 240 هرتز لجميع التطبيقات</string>
     <string name="game_mode_warning">قد يقلل عمر البطارية</string>
@@ -188,6 +203,7 @@
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 شحن سريع</string>
     <string name="usb2_fc_summary">فرض شحن سريع يصل إلى 900mA في وضع USB 2.0</string>
+    <string name="usb2_fc_warning">يتداخل مع شحن نقطة/نقطة؛ تمكين فقط عند الاقتضاء</string>
     <string name="otg_title">USB OTG</string>
     <string name="otg_summary">قم بتمكين وضع USB on-the-go</string>
     <!-- Vibrator -->
