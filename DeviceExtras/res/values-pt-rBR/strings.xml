@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">Recursos extras do dispositivo</string>
     <string name="device_summary">Ajustar configurações específicas do dispositivo</string>
+    <string name="device_extras_warning_title">Aviso</string>
+    <string name="device_extras_warning_text">A maioria destes recursos são atribuídas ao kernel stock. Ao instalar um kernel personalizado, você está sujeito a perder algumas funções. Você foi avisado!</string>
+    <string name="device_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Controle deslizante de alerta</string>
     <string name="notification_slider_title">Configurações do controle deslizante de alerta</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">Cor do texto</string>
     <string name="fps_info_color_green">Verde</string>
     <string name="fps_info_color_red">Vermelho</string>
+    <string name="fps_info_color_magenta">Magenta</string>
     <string name="fps_info_color_blue">Azul</string>
+    <string name="fps_info_color_cyan">Ciano</string>
     <string name="fps_info_color_yellow">Amarelo</string>
     <string name="fps_info_color_black">Preto</string>
+    <string name="fps_info_color_white">Branco</string>
+    <string name="fps_info_color_gray">Cinza</string>
+    <string name="fps_info_color_ltgray">Cinza Claro</string>
+    <string name="fps_info_color_dkgray">Cinza Escuro</string>
     <string name="fps_info_color_accent">Padrão do sistema</string>
     <string name="fps_info_position_title">Posição do medidor</string>
     <string name="fps_info_position_top_left">Canto superior esquerdo</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">Canto inferior esquerdo</string>
     <string name="fps_info_position_bottom_center">Centro inferior</string>
     <string name="fps_info_position_bottom_right">Canto inferior direito</string>
+    <string name="fps_info_position_center_left">Centro à esquerda</string>
+    <string name="fps_info_position_center_center">Centro</string>
+    <string name="fps_info_position_center_right">Centro à direita</string>
     <string name="fps_info_text_size_title">Tamanho do texto</string>
     <!-- Doze -->
     <string name="ambient_enable">Mostrar tela ambiente</string>
@@ -175,10 +187,13 @@
     <string name="touchscreen_gesture_action_wake_device">Acordar o dispositivo</string>
     <string name="touchscreen_gesture_action_wechat_pay">Pagamento WeChat</string>
     <string name="touchscreen_gesture_action_alipay_pay">Pagamento Alipay</string>
-    <string name="touchscreen_gesture_action_wechat_scan">Escaneamento de Wechat</string>
-    <string name="touchscreen_gesture_action_alipay_scan">Escaneamento de Alipay</string>
-    <string name="touchscreen_gesture_action_alipay_trip">Viagem Alipay</string>
-    <string name="touchscreen_gesture_action_wallet_trip">Viagem de carteira</string>
+    <string name="touchscreen_gesture_action_wechat_scan">Wechat Scan</string>
+    <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
+    <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
+    <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
+    <string name="touchscreen_gesture_action_device_extras">Adicionais do dispositivo</string>
+    <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
+    <string name="touchscreen_gesture_action_google_search">Pesquisa do Google</string>
     <string name="game_mode_title">Modo de jogo</string>
     <string name="game_mode_summary">Forçar taxa de amostragem de 240Hz em todos os aplicativos</string>
     <string name="game_mode_warning">Pode diminuir a duração da bateria</string>
@@ -188,14 +203,15 @@
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Carregamento rápido USB 2.0</string>
     <string name="usb2_fc_summary">Forçar carregamento rápido de até 900mA no modo USB 2.0</string>
+    <string name="usb2_fc_warning">Interfere no carregamento dash/warp; habilite apenas quando for necessário</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">Ativar o modo USB on-the-go</string>
     <!-- Vibrator -->
     <string name="category_vibrator">Vibração</string>
     <string name="vib_strength_title">Força do sistema</string>
     <string name="vib_strength_summary">Definir intensidade da vibração</string>
-    <string name="vib_call_strength_title">Força da chamada</string>
-    <string name="vib_call_strength_summary">Defina a força do vibrador durante uma chamada recebida</string>
-    <string name="vib_notif_strength_title">Força da notificação</string>
-    <string name="vib_notif_strength_summary">Defina a força do vibrador durante uma notificação recebida</string>
+    <string name="vib_call_strength_title">Vibração das chamadas</string>
+    <string name="vib_call_strength_summary">Defina a intensidade da vibração para chamadas recebidas</string>
+    <string name="vib_notif_strength_title">Vibração das notificações</string>
+    <string name="vib_notif_strength_summary">Defina a intensidade da vibração para novas notificações</string>
 </resources>
