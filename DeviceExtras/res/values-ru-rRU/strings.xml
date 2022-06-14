@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">Дополнительные настройки</string>
     <string name="device_summary">Настройка специфичных параметров устройства</string>
+    <string name="device_extras_warning_title">Предупреждение</string>
+    <string name="device_extras_warning_text">Большинство этих функций для своей работы зависят от определенных узлов ядра. Прошивая пользовательское ядро, вы рискуете потерять доступ к некоторым функциям. Вы были предупреждены!</string>
+    <string name="device_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Слайдер оповещений</string>
     <string name="notification_slider_title">Параметры слайдера уведомлений</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">Цвет текста</string>
     <string name="fps_info_color_green">Зеленый</string>
     <string name="fps_info_color_red">Красный</string>
+    <string name="fps_info_color_magenta">Пурпурный</string>
     <string name="fps_info_color_blue">Синий</string>
+    <string name="fps_info_color_cyan">Бирюзовый</string>
     <string name="fps_info_color_yellow">Жёлтый</string>
     <string name="fps_info_color_black">Чёрный</string>
+    <string name="fps_info_color_white">Белый</string>
+    <string name="fps_info_color_gray">Серый</string>
+    <string name="fps_info_color_ltgray">Светло-серый</string>
+    <string name="fps_info_color_dkgray">Тёмно-серый</string>
     <string name="fps_info_color_accent">Следовать системе</string>
     <string name="fps_info_position_title">Местонахождение на экране</string>
     <string name="fps_info_position_top_left">Вверху слева</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">Внизу слева</string>
     <string name="fps_info_position_bottom_center">Внизу по центру</string>
     <string name="fps_info_position_bottom_right">Внизу справа</string>
+    <string name="fps_info_position_center_left">Слева по центру</string>
+    <string name="fps_info_position_center_center">По центру</string>
+    <string name="fps_info_position_center_right">Справа по центру</string>
     <string name="fps_info_text_size_title">Размер текста</string>
     <!-- Doze -->
     <string name="ambient_enable">Показывать Ambient Display</string>
@@ -179,6 +191,9 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
+    <string name="touchscreen_gesture_action_device_extras">DeviceExtras</string>
+    <string name="touchscreen_gesture_action_google_maps">Google Карты</string>
+    <string name="touchscreen_gesture_action_google_search">Google Поиск</string>
     <string name="game_mode_title">Игровой режим</string>
     <string name="game_mode_summary">Включить частоту сенсорного слоя 240Гц для всех приложений</string>
     <string name="game_mode_warning">Может увеличить расход заряда батареи</string>
@@ -188,6 +203,7 @@
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Быстрая зарядка USB 2.0</string>
     <string name="usb2_fc_summary">Принудительная быстрая зарядка до 900mA в режиме USB 2.0</string>
+    <string name="usb2_fc_warning">Интерфейс с зарядкой dash/warp; включается только в применимых случаях</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">Включить режим USB \"на ходу\"</string>
     <!-- Vibrator -->
