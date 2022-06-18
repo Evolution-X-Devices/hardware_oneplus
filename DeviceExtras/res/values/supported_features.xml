@@ -64,6 +64,9 @@
     <!-- Whether device supports OTG -->
     <bool name="config_deviceSupportsOTG">false</bool>
 
+    <!-- Whether to show Jitter Test -->
+    <bool name="config_deviceSupportsJitterTest">true</bool>
+
     <!-- Whether device supports USB2.0 Force Fastcharge -->
     <bool name="config_deviceSupportsUSB2FC">false</bool>
 

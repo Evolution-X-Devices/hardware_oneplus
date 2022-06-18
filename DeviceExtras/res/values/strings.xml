@@ -209,6 +209,11 @@
     <string name="tp_edge_limit_mode_title">TP Edge Limit</string>
     <string name="tp_edge_limit_mode_summary">Disable the touchpanels edge limit</string>
 
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">Calculate rendering jitter</string>
+
     <!-- USB -->
     <string name="usb_title">USB</string> 
     <string name="usb2_fc_title">USB 2.0 fast charge</string>

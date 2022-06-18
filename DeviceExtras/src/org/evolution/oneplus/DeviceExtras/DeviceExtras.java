@@ -125,6 +125,9 @@ public class DeviceExtras extends PreferenceFragment
     private EarGainPreference mEarGain;
     private MicGainPreference mMicGain;
 
+    public static final String KEY_CATEGORY_UIBENCH = "uibench";
+    public static final String KEY_JITTER = "jitter";
+
     public static final String KEY_CATEGORY_USB = "usb";
     public static final String KEY_USB2_SWITCH = "usb2_fast_charge";
     public static final String KEY_USB2_INFO = "usb2_info";
@@ -372,6 +375,20 @@ public class DeviceExtras extends PreferenceFragment
 
         if (!speakerCategory) {
             getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_SPEAKER_MIC));
+        }
+
+        boolean uibenchCategory = false;
+
+        // Jitter Test
+        uibenchCategory = uibenchCategory | isFeatureSupported(context, R.bool.config_deviceSupportsJitterTest);
+        if (isFeatureSupported(context, R.bool.config_deviceSupportsJitterTest)) {
+        }
+        else {
+            findPreference(KEY_JITTER).setVisible(false);
+        }
+
+        if (!uibenchCategory) {
+            getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_UIBENCH));
         }
 
         boolean usbCategory = false;

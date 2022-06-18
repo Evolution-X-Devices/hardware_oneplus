@@ -145,6 +145,17 @@
             </intent-filter>
         </activity>
 
+        <!-- Jitter Test Activity -->
+        <activity
+            android:name=".uibench.JitterTestActivity"
+            android:exported="true"
+            android:label="@string/jitter_test_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- FPS info service -->
         <service
             android:name=".services.FPSInfoService"
