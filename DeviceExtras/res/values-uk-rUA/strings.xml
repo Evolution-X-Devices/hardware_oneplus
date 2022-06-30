@@ -199,6 +199,10 @@
     <string name="game_mode_warning">Може збільшити витрати заряду батареї</string>
     <string name="tp_edge_limit_mode_title">TP Ліміт</string>
     <string name="tp_edge_limit_mode_summary">Вимкніть обмеження краю сенсорних панелей</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Тремтіння</string>
+    <string name="jitter_test_summary">Розрахувати тремтіння візуалізації</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Швидке заряджання USB 2.0</string>
