@@ -199,6 +199,10 @@
     <string name="game_mode_warning">電池の減りが速くなります</string>
     <string name="tp_edge_limit_mode_title">TP エッジ制限</string>
     <string name="tp_edge_limit_mode_summary">タッチパネルのエッジ制限を無効にする</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UIBench</string>
+    <string name="jitter_test_title">ジッター</string>
+    <string name="jitter_test_summary">レンダリングジッターを計算する</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 急速充電</string>
