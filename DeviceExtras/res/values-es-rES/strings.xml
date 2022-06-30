@@ -199,6 +199,10 @@
     <string name="game_mode_warning">Puede reducir la duración de la batería</string>
     <string name="tp_edge_limit_mode_title">Límite de borde TP</string>
     <string name="tp_edge_limit_mode_summary">Desactivar el límite de bordes de los paneles táctiles</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">Calcular jitter de renderizado</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Carga rápida USB 2.0</string>

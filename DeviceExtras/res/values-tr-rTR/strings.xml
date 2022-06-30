@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">Cihaz ekstraları</string>
     <string name="device_summary">Cihaza özel seçenekleri ayarlayın</string>
+    <string name="device_extras_warning_title">Uyarı</string>
+    <string name="device_extras_warning_text">Bu özelliklerin çoğu özel kernel parametreleri gerektirir. Özel bir kernel yüklerseniz bazı özellikleri kaybetme riskiniz olur. Dikkatli olun!</string>
+    <string name="device_extras_dialog">Tamam</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Uyarı kaydırıcısı</string>
     <string name="notification_slider_title">Uyarı kaydırıcısı ayarları</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">Metin rengi</string>
     <string name="fps_info_color_green">Yeşil</string>
     <string name="fps_info_color_red">Kırmızı</string>
+    <string name="fps_info_color_magenta">Magenta</string>
     <string name="fps_info_color_blue">Mavi</string>
+    <string name="fps_info_color_cyan">Cyan</string>
     <string name="fps_info_color_yellow">Sarı</string>
     <string name="fps_info_color_black">Siyah</string>
+    <string name="fps_info_color_white">Beyaz</string>
+    <string name="fps_info_color_gray">Gri</string>
+    <string name="fps_info_color_ltgray">Açık Gri</string>
+    <string name="fps_info_color_dkgray">Koyu Gri</string>
     <string name="fps_info_color_accent">Sisteme göre</string>
     <string name="fps_info_position_title">Arayüz konumu</string>
     <string name="fps_info_position_top_left">Sol üst</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">Sol alt</string>
     <string name="fps_info_position_bottom_center">Orta alt</string>
     <string name="fps_info_position_bottom_right">Sağ alt</string>
+    <string name="fps_info_position_center_left">Merkez sol</string>
+    <string name="fps_info_position_center_center">Merkez</string>
+    <string name="fps_info_position_center_right">Merkez sağ</string>
     <string name="fps_info_text_size_title">Metin boyutu</string>
     <!-- Doze -->
     <string name="ambient_enable">Ortam ekranını göster</string>
@@ -179,15 +191,23 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Tarama</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Gezi</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Gezi</string>
+    <string name="touchscreen_gesture_action_device_extras">Cihaz Ekstraları</string>
+    <string name="touchscreen_gesture_action_google_maps">Google Haritalar</string>
+    <string name="touchscreen_gesture_action_google_search">Google Arama</string>
     <string name="game_mode_title">Oyun modu</string>
     <string name="game_mode_summary">Tüm uygulamalar için 240Hz ekran yenileme hızını etkinleştirmeye zorlayın</string>
     <string name="game_mode_warning">Pil ömrünü kısaltabilir</string>
     <string name="tp_edge_limit_mode_title">TP Kenar Sınırı</string>
     <string name="tp_edge_limit_mode_summary">Dokunmatik panel kenar sınırını devre dışı bırak</string>
+    <!-- UiBench -->
+    <string name="category_uibench">Kullanıcı arabirimi sıralaması</string>
+    <string name="jitter_test_title">Seğirme</string>
+    <string name="jitter_test_summary">Seyirme oluşumunu ölç</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 hızlı şarj</string>
     <string name="usb2_fc_summary">USB 2.0 modunda 900mA hızlı şarj etmeye zorla</string>
+    <string name="usb2_fc_warning">Dash/warp sarj ile karışı; sadece uygulanabilir olduğunda</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">USB kullanımını etkinleştir</string>
     <!-- Vibrator -->

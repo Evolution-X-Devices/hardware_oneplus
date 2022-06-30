@@ -199,6 +199,10 @@
     <string name="game_mode_warning">Může snížit životnost baterie</string>
     <string name="tp_edge_limit_mode_title">Limit hrany TP</string>
     <string name="tp_edge_limit_mode_summary">Zakázat limit hrany dotykového panelu</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">Výpočet vykreslování Jitter</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Rychlé nabíjení přes USB 2.0</string>
