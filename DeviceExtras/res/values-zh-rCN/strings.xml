@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">一加设置</string>
     <string name="device_summary">调整一加设备的特定设置</string>
+    <string name="device_extras_warning_title">警告</string>
+    <string name="device_extras_warning_text">这些功能大多依赖于特定内核节点才能起作用。 通过刷入自定义内核，您有可能失去某些功能的访问权限。您已被警告！</string>
+    <string name="device_extras_dialog">确定</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">三段式开关</string>
     <string name="notification_slider_title">三段式开关设置</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">文本颜色</string>
     <string name="fps_info_color_green">绿色</string>
     <string name="fps_info_color_red">红色</string>
+    <string name="fps_info_color_magenta">品红</string>
     <string name="fps_info_color_blue">蓝色</string>
+    <string name="fps_info_color_cyan">青色</string>
     <string name="fps_info_color_yellow">黄色</string>
     <string name="fps_info_color_black">黑色</string>
+    <string name="fps_info_color_white">白色</string>
+    <string name="fps_info_color_gray">灰色</string>
+    <string name="fps_info_color_ltgray">淡灰</string>
+    <string name="fps_info_color_dkgray">暗灰</string>
     <string name="fps_info_color_accent">跟随系统</string>
     <string name="fps_info_position_title">覆盖位置</string>
     <string name="fps_info_position_top_left">左上方</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">左下方</string>
     <string name="fps_info_position_bottom_center">底部居中</string>
     <string name="fps_info_position_bottom_right">右下方</string>
+    <string name="fps_info_position_center_left">中间靠左</string>
+    <string name="fps_info_position_center_center">居中</string>
+    <string name="fps_info_position_center_right">中间靠右</string>
     <string name="fps_info_text_size_title">文本尺寸</string>
     <!-- Doze -->
     <string name="ambient_enable">环境显示</string>
@@ -179,15 +191,23 @@
     <string name="touchscreen_gesture_action_alipay_scan">支付宝扫一扫</string>
     <string name="touchscreen_gesture_action_alipay_trip">支付宝出行</string>
     <string name="touchscreen_gesture_action_wallet_trip">钱包行程</string>
+    <string name="touchscreen_gesture_action_device_extras">设备附加设置</string>
+    <string name="touchscreen_gesture_action_google_maps">Google 地图</string>
+    <string name="touchscreen_gesture_action_google_search">Google 搜索</string>
     <string name="game_mode_title">游戏模式</string>
     <string name="game_mode_summary">强制为所有应用启用 240Hz 采样率</string>
     <string name="game_mode_warning">可能会降低电池寿命</string>
     <string name="tp_edge_limit_mode_title">触摸屏边缘限制</string>
     <string name="tp_edge_limit_mode_summary">禁用触摸屏边缘限制</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBech</string>
+    <string name="jitter_test_title">抖动</string>
+    <string name="jitter_test_summary">计算渲染抖动</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 快速充电</string>
     <string name="usb2_fc_summary">在 USB 2.0 模式下强制进行高达 900mA 的快速充电</string>
+    <string name="usb2_fc_warning">干扰 dash/warp 闪充；仅在适用时启用</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">启用 USB 移动模式</string>
     <!-- Vibrator -->
