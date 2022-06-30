@@ -18,6 +18,9 @@
     <!-- Device Extras -->
     <string name="device_extras_title">Geräteextras</string>
     <string name="device_summary">Gerätespezifische Einstellungen anpassen</string>
+    <string name="device_extras_warning_title">Warnung</string>
+    <string name="device_extras_warning_text">Die meisten dieser Funktionen sind auf bestimmte Kernelknoten angewiesen, um zu funktionieren. Wenn Sie einen benutzerdefinierten Kernel flashen, riskieren Sie, dass Sie den Zugang zu einigen Funktionen verlieren.</string>
+    <string name="device_extras_dialog">OK</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">Alarm-Schieberegler</string>
     <string name="notification_slider_title">Alert-Slider Einstellungen</string>
@@ -87,9 +90,15 @@
     <string name="fps_info_color_title">Textfarbe</string>
     <string name="fps_info_color_green">Grün</string>
     <string name="fps_info_color_red">Rot</string>
+    <string name="fps_info_color_magenta">Magenta</string>
     <string name="fps_info_color_blue">Blau</string>
+    <string name="fps_info_color_cyan">Türkis</string>
     <string name="fps_info_color_yellow">Gelb</string>
     <string name="fps_info_color_black">Schwarz</string>
+    <string name="fps_info_color_white">Weiß</string>
+    <string name="fps_info_color_gray">Grau</string>
+    <string name="fps_info_color_ltgray">Hellgrau</string>
+    <string name="fps_info_color_dkgray">Dunkelgrau</string>
     <string name="fps_info_color_accent">Systemstandard</string>
     <string name="fps_info_position_title">Overlay-Position</string>
     <string name="fps_info_position_top_left">Oben links</string>
@@ -98,6 +107,9 @@
     <string name="fps_info_position_bottom_left">Unten links</string>
     <string name="fps_info_position_bottom_center">Unten zentriert</string>
     <string name="fps_info_position_bottom_right">Unten rechts</string>
+    <string name="fps_info_position_center_left">Mittig links</string>
+    <string name="fps_info_position_center_center">Zentriert</string>
+    <string name="fps_info_position_center_right">Mittig rechts</string>
     <string name="fps_info_text_size_title">Schriftgröße</string>
     <!-- Doze -->
     <string name="ambient_enable">Ambient-Display anzeigen</string>
@@ -127,6 +139,8 @@
     <string name="category_power">Leistung</string>
     <string name="powershare_mode_title">Umgekehrtes kabelloses Aufladen </string>
     <string name="powershare_mode_summary">Aktiviert das umgekehrte kabellose Laden</string>
+    <string name="wireless_charging_mode_title">Kabelloses Laden</string>
+    <string name="wireless_charging_mode_summary">Kabelloses Laden aktivieren</string>
     <!-- Speaker & Microphone -->
     <string name="category_speaker">Lautsprecher &amp; Mikrofon</string>
     <string name="ear_gain_title">Lautstärken-Verstärkung (Anrufe)</string>
@@ -177,15 +191,23 @@
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
     <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
     <string name="touchscreen_gesture_action_wallet_trip">Wallet Trip</string>
+    <string name="touchscreen_gesture_action_device_extras">Geräteextras</string>
+    <string name="touchscreen_gesture_action_google_maps">Google Maps</string>
+    <string name="touchscreen_gesture_action_google_search">Google Suche</string>
     <string name="game_mode_title">Spielmodus</string>
     <string name="game_mode_summary">240Hz Abtastrate für alle Anwendungen erzwingen</string>
     <string name="game_mode_warning">Kann die Akkulaufzeit verringern</string>
     <string name="tp_edge_limit_mode_title">TP Kantenlimit</string>
     <string name="tp_edge_limit_mode_summary">Das Touchpanel-Kantenlimit deaktivieren</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">Berechnung des Rendering-Jitters</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 (Schnell laden)</string>
     <string name="usb2_fc_summary">Schnelles Laden von bis zu 900mA im USB 2.0 Modus erzwingen</string>
+    <string name="usb2_fc_warning">Beeinträchtigt die Dash-/Warp-Ladung. Nur aktivieren, wenn zutreffend</string>
     <string name="otg_title">USB-OTG</string>
     <string name="otg_summary">USB-Modus für unterwegs aktivieren</string>
     <!-- Vibrator -->
