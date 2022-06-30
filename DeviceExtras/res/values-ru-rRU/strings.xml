@@ -199,6 +199,10 @@
     <string name="game_mode_warning">Может увеличить расход заряда батареи</string>
     <string name="tp_edge_limit_mode_title">TP Лимит</string>
     <string name="tp_edge_limit_mode_summary">Отключить границу края сенсорных панелей</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Джиттер</string>
+    <string name="jitter_test_summary">Рассчитать рендеринг jitter</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">Быстрая зарядка USB 2.0</string>
