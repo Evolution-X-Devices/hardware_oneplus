@@ -19,7 +19,7 @@
     <string name="device_extras_title">一加设置</string>
     <string name="device_summary">调整一加设备的特定设置</string>
     <string name="device_extras_warning_title">警告</string>
-    <string name="device_extras_warning_text">这些功能大多依赖于特定内核节点才能起作用。 通过刷入自定义内核，您有可能失去某些功能的访问权限。您已被警告！</string>
+    <string name="device_extras_warning_text">这些功能大多依赖于特定内核节点才能起作用。刷入自定义内核后某些功能可能无法使用。您已被警告！</string>
     <string name="device_extras_dialog">确定</string>
     <!-- Alert slider -->
     <string name="notification_slider_category_title">三段式开关</string>
