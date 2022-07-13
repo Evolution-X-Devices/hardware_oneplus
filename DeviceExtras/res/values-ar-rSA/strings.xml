@@ -199,6 +199,10 @@
     <string name="game_mode_warning">قد يقلل عمر البطارية</string>
     <string name="tp_edge_limit_mode_title">حد حافة TP</string>
     <string name="tp_edge_limit_mode_summary">تعطيل حد حافة اللمس</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">حساب عملية التقديم</string>
     <!-- USB -->
     <string name="usb_title">USB</string>
     <string name="usb2_fc_title">USB 2.0 شحن سريع</string>
